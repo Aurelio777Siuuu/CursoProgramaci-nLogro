@@ -1,4 +1,4 @@
-// Función para mostrar el menú
+// Función para mostrar el menú bicho ese
 function mostrarMenu() {
     console.log("1. Sumar");
     console.log("2. Restar");
