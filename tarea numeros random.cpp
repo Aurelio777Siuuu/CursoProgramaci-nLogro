@@ -26,7 +26,7 @@ int main() {
     
     std::cout<<"Sus números aleatorios generados son:\n";
     for(int numero : numeros) {
-        std::cout<<numero<<"";
+        std::cout<<numero<<" ";
     }
     std::cout<<std::endl;
     
