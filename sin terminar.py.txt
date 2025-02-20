@@ -1,0 +1,21 @@
+sin terminar
+import random
+
+def adivinaelnumero():
+ numerito = random.randint(1,100)
+ intentos = 10
+
+print("¿Encontrarás el número secreto?")
+
+while True:
+    int(input = palabra("escribe un numero del 1 al 100: "))
+    
+    if numerito > palabra:
+         print("el numero es muy alto")
+    if numerito < palabra:
+         print("el numero es muy bajo")
+    else:
+        print("encontraste el número")
+    
+    break
+adivinaelnumero()
