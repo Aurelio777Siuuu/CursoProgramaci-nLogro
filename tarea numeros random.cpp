@@ -8,11 +8,11 @@ tarea
 int main() {
     int cantidad, rangoMin, rangoMax;
     
-    std::cout<<"ingrese la cantidad de números a generar:";
+    std::cout<<"¿Cuántos números quieres generar?:";
     std::cin>>cantidad;
-    std::cout<<"ingrese el rango mínimo: ";
+    std::cout<<"ingresa el rango mínimo: ";
     std::cin>>rangoMin;
-    std::cout<<"ingrese el rango máximo: ";
+    std::cout<<"ingresa el rango máximo: ";
     std::cin>>rangoMax;
     
     std::srand(std::time(0));
@@ -24,7 +24,7 @@ int main() {
         numeros.push_back(numeroAleatorio);
     }
     
-    std::cout<<"Números aleatorios generados:\n";
+    std::cout<<"Sus números aleatorios generados son:\n";
     for(int numero : numeros) {
         std::cout<<numero<<"";
     }
